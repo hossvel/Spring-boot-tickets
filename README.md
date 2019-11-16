@@ -10,4 +10,11 @@ docker exec -it mysql-tickets mysql -u root -p
 mvn spring-boot:run
 
 ## Ingresar a swagger 
-http://localhost:8081/swagger-ui.html
+http://localhost:8080/swagger-ui.html
+
+## docker compose generar ompilacion correcta
+ docker-compose build
+
+ ## ejecutar docker compose
+ docker-compose up
+ 
