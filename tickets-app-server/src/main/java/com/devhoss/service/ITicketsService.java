@@ -10,4 +10,6 @@ import com.devhoss.model.Ticket;
 public interface ITicketsService {
 
 	public List<Ticket> FindAll();
+	
+	public Ticket Save(Ticket ticket);
 }

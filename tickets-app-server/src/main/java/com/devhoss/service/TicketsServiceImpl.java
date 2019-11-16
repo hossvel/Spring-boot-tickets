@@ -18,6 +18,14 @@ public class TicketsServiceImpl implements ITicketsService {
 	public List<Ticket> FindAll() {
 		return iTicketsRepository.findAll();
 	}
+
+
+	@Override
+	public Ticket Save(Ticket ticket) {
+		Ticket savedPersona = iTicketsRepository.save(ticket);
+		return savedPersona;
+		
+	}
 	
 }
 
